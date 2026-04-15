@@ -358,3 +358,11 @@ img { max-width: 100%; display: block; }
   .section { padding: 3.5rem 0; }
   .legal-card { padding: 1.4rem; }
 }
+
+
+.brand-lockup { display:flex; flex-direction:column; gap:.25rem; }
+.trust-link { color: var(--gold-soft); font-size:.88rem; font-weight:700; text-decoration:none; margin-left: calc(54px + .85rem); }
+.trust-link:hover, .trust-link:focus-visible { text-decoration:underline; }
+.trust-note { margin:.9rem 0 0; color: var(--muted); font-size:.95rem; }
+.trust-note a { color:#fff; }
+@media (max-width:760px) { .trust-link { margin-left: 0; } }
