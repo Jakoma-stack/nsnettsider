@@ -20,3 +20,11 @@ Current privacy posture:
 - No analytics or marketing cookies
 - No consent banner in this build because no non-essential tracking is included
 - Language switching uses the URL, not cookies or local storage
+
+
+HTTPS / "Not secure" note:
+- If the browser says "Not secure", the site is almost always being opened over http:// or from a temporary preview URL without SSL.
+- The public site should be opened as https://nsnettsider.com/
+- Enable the host's free SSL certificate (often Let's Encrypt) before launch.
+- If your host uses Apache or cPanel, upload the included .htaccess file to help force HTTPS.
+- If you open the files directly from your computer or from a staging preview, the browser may still show a non-secure warning.
